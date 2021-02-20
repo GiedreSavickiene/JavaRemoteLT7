@@ -5,7 +5,9 @@ public abstract class Animal {
     protected String  voice;
     protected boolean mammal;
 
-    public Animal(String voice, boolean mammal);{
+    public Animal(String voice, boolean mammal) {
+
+
         this.voice = voice;
         this.mammal = mammal;
 

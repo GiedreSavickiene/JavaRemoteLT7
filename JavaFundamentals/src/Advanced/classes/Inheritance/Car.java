@@ -10,6 +10,7 @@ public class Car extends Vehicle {
     }
 
     public int vehicleMaxSpeed(){
+
         return maxSpeed + 20;
     }
 

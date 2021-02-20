@@ -14,4 +14,9 @@ public class Cat extends Animal{
     public String yielsVoice(){
         return "Cat voice: " + voice;
     }
+
+    @Override
+    public String yieldVoice() {
+        return null;
+    }
 }

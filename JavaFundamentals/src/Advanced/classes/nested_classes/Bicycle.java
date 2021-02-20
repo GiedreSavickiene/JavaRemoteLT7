@@ -11,9 +11,12 @@ public class Bicycle {
             return maxSpeed;
         }
 
-        //Nestes class
+        //Nested class
     public static class Mechanic {
+            private Bicycle bicycle;
+
             public void upgrade(Bicycle bicycle) {
+                this.bicycle = bicycle;
                 bicycle.maxSpeed *= 2;
 
             }
