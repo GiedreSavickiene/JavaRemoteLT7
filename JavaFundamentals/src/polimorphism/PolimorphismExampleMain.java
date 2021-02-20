@@ -21,15 +21,17 @@ public class PolimorphismExampleMain {
         printRemoteControlerObject(remote);
 
     }
-
+    //priema tik viena remote
     private static void printTvObject(TvRemoteControler tv){
         System.out.println(tv.getClass().getSimpleName());
 
     }
+    //priema tik viena remote
     private static void printAcObject(AcRemoteControler ac){
         System.out.println(ac.getClass().getSimpleName());
 
     }
+    //priema abu objektus remote
     private static void printRemoteControlerObject(RemoteControle remote) {
         System.out.println(remote.getClass().getSimpleName());
     }
