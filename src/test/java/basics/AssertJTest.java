@@ -19,7 +19,7 @@ public class AssertJTest {
         assertThat(textArr)
                 .hasSize(3)
                 .contains(text)
-                .contains("ofg")
+                .contains("ogf")
                 .doesNotContain("aaaaa");
 
     }
