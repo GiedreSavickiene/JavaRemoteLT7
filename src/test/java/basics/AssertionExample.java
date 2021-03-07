@@ -101,7 +101,7 @@ public class AssertionExample {
 
         //then
         assertSame(text1, text2);
-        assertSame(text2, text3);
+        assertSame(text2, text1);
     }
 
 
