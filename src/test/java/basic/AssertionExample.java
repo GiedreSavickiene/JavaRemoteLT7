@@ -24,7 +24,7 @@ public class AssertionExample {
         Calculator calculator = new Calculator();
 
         //when
-        int result = calculator.add(5, 115);
+        int result = calculator.sutract(5, 115);
 
         //then
         Assertions.assertEquals(-110, result);
@@ -34,14 +34,14 @@ public class AssertionExample {
     public void testingCalculatoDaugyba(){
 
         Calculator calculator = new Calculator();
-        int result = calculator.add(5, 5);
+        int result = calculator.daugyba(5, 5);
         Assertions.assertEquals(25, result);
     }
 
     @Test
     public void testingCalculatosDalyba(){
         Calculator calculator = new Calculator();
-        int result = calculator.add(25, 5);
+        int result = calculator.dalyba(25, 5);
         Assertions.assertEquals(5, result);
     }
 
