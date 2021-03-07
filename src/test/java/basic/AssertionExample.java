@@ -42,7 +42,7 @@ public class AssertionExample {
     public void testingCalculatosDalyba(){
         Calculator calculator = new Calculator();
         int result = calculator.dalyba(25, 5);
-        Assertions.assertEquals(7, result);
+        Assertions.assertEquals(5, result);
     }
 
 }
