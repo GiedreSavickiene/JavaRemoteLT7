@@ -1,4 +1,4 @@
-package basic;
+package basics;
 
 import fundamentals_tasting.Calculator;
 import org.junit.jupiter.api.Assertions;
